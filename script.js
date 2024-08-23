@@ -61,11 +61,5 @@ function substituiNome(){
     }
 }
 
-function substituiNome_texto(){
-    for(const pergunta of perguntas){
-        pergunta.texto = pergunta.texto.replace(/Diana/g, nome);
-    }
-}
-
 substituiNome();
 mostraPergunta();
